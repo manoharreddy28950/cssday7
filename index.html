@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Danfo&family=Great+Vibes&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Lobster&family=Oswald:wght@200..700&family=Pacifico&family=Playball&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+        }
+        h1 {
+            border: 2px solid black;
+            width: 80%;
+            height: 5vh;
+            margin: auto;
+            text-align: center;
+            box-shadow: 1px 1px 18px 2px lightpink inset, 1px 1px 3px 1px grey;
+            margin-top: 2%;
+            padding: 10px;
+        }
+        #main {
+            display: grid;
+            width: 80%;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            row-gap: 30px;
+            column-gap: 20px;
+            margin: auto;
+            margin-top: 5%;
+        }
+        #main div {
+            height: 250px;
+            width: 250px;
+            box-shadow: 1px 1px 5px 2px gray;
+            border-radius: 4px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: fit-content;
+        }
+        #m1 { background-color: lightcyan; }
+        #m2 { background-color: lightpink; }
+        #m3 { background-color: lightsteelblue; }
+        #m4 { background-color: lightgrey; }
+        #m5 { background-color: lightseagreen; }
+        #m6 { background-color: lightsalmon; }
+        #m7 { background-color: lightgoldenrodyellow; }
+        #m8 { background-color: lightgreen; }
+        #m9 { background-color: lightgray; }
+        #m10 { background-color: lightcyan; }
+        #m11 { background-color: rgba(0, 0, 0, 0); }
+        #m12 { background-color: lightcoral; }
+        
+        span {
+            font-size: 25px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        #m1:hover span { 
+            font-family: "Oswald", serif; 
+            font-weight: bold; 
+            transform: scale(1.1);
+        }
+        #m2:hover span {
+            font-family: "Kanit", serif; 
+            font-weight: 300; 
+            transform: scale(1.1);
+        }
+        #m3:hover span {
+            font-family: "Josefin Sans", serif; 
+            font-weight: 200; 
+            transform: scale(1.1);
+        }
+        #m4:hover span {
+            font-family: "Danfo", serif; 
+            font-weight: 200; 
+            transform: scale(1.1);
+        }
+        #m5:hover span {
+            font-family: "Great Vibes", serif; 
+            font-weight: 200; 
+            transform: scale(1.1);
+        }
+        #m6:hover span {
+            font-family: "Playball", serif; 
+            font-weight: 100; 
+            transform: scale(1.1);
+        }
+        #m7:hover span {
+            font-family: "Lobster", serif; 
+            font-weight: bold; 
+            transform: scale(1.1);
+        }
+        #m8:hover span {
+            font-family: "Rowdies", serif; 
+            font-weight: bold; 
+            transform: scale(1.1);
+        }
+        #m9:hover span {
+            font-family: "Pacifico", serif; 
+            font-weight: 100; 
+            transform: scale(1.1);
+        }
+        #m10:hover span {
+            font-family: "Playball", serif; 
+            font-weight: bold; 
+            transform: scale(1.1);
+        }
+        #m11:hover span {
+            font-family: "Oswald", serif; 
+            font-weight: 700; 
+            transform: scale(1.1);
+        }
+        #m12:hover span {
+            font-family: "Oswald", serif; 
+            font-weight: 700; 
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>Box Shadow and Font-families</h1>
+    <div id="main">
+        <div id="m1"> <span>Oswald</span> </div>
+        <div id="m2"> <span>Kanit</span> </div>
+        <div id="m3"> <span>Josefin</span> </div>
+        <div id="m4"> <span>Danfo</span> </div>
+        <div id="m5"> <span>Great Vibes</span> </div>
+        <div id="m6"> <span>Playball</span> </div>
+        <div id="m7"> <span>Lobster</span> </div>
+        <div id="m8"> <span>Rowdies</span> </div>
+        <div id="m9"> <span>Pacifico</span> </div>
+        <div id="m10"> <span>Play write</span> </div>
+        <div id="m11"> <span>Jacquared</span> </div>
+        <div id="m12"> <span>shadows</span> </div>
+    </div>
+</body>
+</html>
